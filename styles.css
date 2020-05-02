@@ -1,0 +1,129 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	min-width: 960px;
+	font-family: Arial;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html,
+body,
+main input,
+main textarea {
+	background-color: #f5f5f5;
+}
+
+main {
+	width: 960px;
+	margin: 60px auto;
+}
+
+#left-column {
+	width: 470px;
+	float: left;
+	margin-right: 20px;
+}
+
+#left-column #empty-order {
+	font-size: 16px;
+	color: rgb(137, 147, 173);
+	line-height: 0.375;
+	margin-top: 0px;
+	display: block;
+}
+
+#left-column .ticket {
+	width: 470px;
+	background: white;
+	min-height: 137px;
+	margin-bottom: 20px;
+}
+
+#left-column .ticket h2 {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: "Arial";
+	width: 430px;
+	padding: 20px 0 20px 20px;
+	margin: 0 0 0px 0;
+}
+
+.ticket span {
+	cursor: pointer;
+}
+
+#left-column .ticket h2 span {
+	color: red;
+	margin-left: 25px;
+}
+
+#left-column .ticket .collapse,
+#left-column .ticket .expand {
+	width: 20px;
+	display: inline-block;
+	text-align: center;
+}
+
+#left-column .ticket p {
+	font-size: 14px;
+	font-family: "Arial";
+	color: rgb(137, 147, 173);
+	padding: 5px 20px;
+	border-top: 1px solid rgb(235, 235, 235);
+}
+
+#right-column {
+	width: 470px;
+	float: left;
+}
+
+h1 {
+	font-size: 21px;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+
+form {
+	background: white;
+	padding: 0 40px 55px 40px;
+}
+
+form label {
+	display: block;
+	font-size: 16px;
+	color: rgb(137, 147, 173);
+	line-height: 3;
+}
+
+form input,
+form textarea {
+	font-size: 18px;
+	color: rgb(0, 0, 0);
+	line-height: 2.45;
+	padding: 0 16px;
+	margin-bottom: 25px;
+	border: 1px solid rgb(235, 235, 235);
+	width: 356px;
+	font-weight: 400;
+}
+
+form textarea {
+	height: 230px;
+	font-family: Arial;
+}
+
+form button {
+	background-color: rgb(33, 116, 253);
+	border: none;
+	width: 224px;
+	height: 55px;
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+	line-height: 3.1;
+}
